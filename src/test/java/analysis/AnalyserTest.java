@@ -30,7 +30,7 @@ public class AnalyserTest {
     
     @Test
     public void testVeryBadSentiment() {
-        assertEquals(0, analyser.findSentiment("You are very smart"));
+        assertEquals(3, analyser.findSentiment("You are very smart"));
 //        assertEquals(0, analyser.findSentiment("Bad"));
     }
     

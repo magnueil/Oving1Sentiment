@@ -5,3 +5,7 @@ jdk:
   - oraclejdk8
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+notifications:
+   email:
+     - magnus_eilertsen@hotmail.com
+     on_failure: always
